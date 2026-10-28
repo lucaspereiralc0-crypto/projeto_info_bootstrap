@@ -1,0 +1,68 @@
+
+/* Estilos gerais */
+body {
+    background-color: #dbb7b7;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+/* Card da apresentação */
+.card {
+    width: 18rem;
+    margin: 0 auto;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+/* Responsividade para tablets */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .card {
+        width: 100% ;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
+/* Responsividade para celulares */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
